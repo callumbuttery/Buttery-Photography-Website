@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------------------------------------------*/
+/*BASIC PAGE SET UP FOR BACKGROUND AND CAPTURING FREE SPOKEN MOMENTS TEXT*/
+/*--------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #484848;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    width: 1140px;
+    margin: 0 auto 0 auto
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*Header
+/*--------------------------------------------------------------------------------------------------*/
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(IMG_4656.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.background-textbox{
+    width: 1140px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 240%;
+    font-weight: 300;
+    word-spacing: 3px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*Buttons
+/*--------------------------------------------------------------------------------------------------*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.btn-ghost{
+    border: 1px solid; 
+}
+
+.btn-ghost:hover{
+    color: white;
+    background-color: #10ac84;
+    border-color: #10ac84;
+    transition: background 0.2, border 0.2, color 0.2;
+}
+
+
+
+
+
