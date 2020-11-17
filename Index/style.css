@@ -16,7 +16,12 @@ html{
 
 .row{
     width: 1140px;
-    margin: 0 auto 0 auto
+    margin: 0px auto 0px auto;
+    padding-left: 0;
+}
+
+section{
+    padding: 80px 0px;
 }
 
 
@@ -41,14 +46,42 @@ header{
 }
 
 h1{
-    color: rgba(255, 255, 255, 0.79);
+    color: rgba(255, 255, 255, 1);
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 240%;
-    font-weight: 300;
+    font-weight: 100;
     word-spacing: 3px;
     text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
 }
+
+
+.h2Style{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+p{
+    letter-spacing: 1px;
+    margin-top: 10px; 
+}
+
+.reviewImages{
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
 
 .Logo{
     height: 100px;
@@ -59,7 +92,7 @@ h1{
 .mainNav{
     float: right;
     list-style: none;
-    
+
 }
 
 .mainNav li{
@@ -68,11 +101,21 @@ h1{
     margin-left: 30px;
 }
 
-.mainNav li a{
+.mainNav li a:link,
+.mainNav li a:visited{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
     color: white;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px 5px;
+}
+
+.mainNav li a:hover,
+.mainNav li a:visited{
+    border-bottom: 2px solid orange;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,2);
 }
 
 
