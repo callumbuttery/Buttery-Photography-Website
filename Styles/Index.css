@@ -1,0 +1,204 @@
+/*--------------------------------------------------------------------------------------------------*/
+/*BASIC PAGE SET UP FOR BACKGROUND AND CAPTURING FREE SPOKEN MOMENTS TEXT*/
+/*--------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #484848;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    width: 1140px;
+    margin: 0px auto 0px auto;
+    padding-left: 0;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*Header
+/*--------------------------------------------------------------------------------------------------*/
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(IMG_4656.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.background-textbox{
+    width: 1140px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 240%;
+    font-weight: 100;
+    word-spacing: 3px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;    
+}
+
+
+.h2Style{
+    width: 40%;
+    margin-left: 35%;
+    font-size: 200%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+h4{ 
+    margin-bottom: 25px;
+    font-size: 200%;
+    width: 40%;
+    margin-left: 36%;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+p{
+    letter-spacing: 0.5px;
+    margin-top: 10px; 
+}
+
+.favouritesParagraph{
+    width: 40%;
+    margin-left: 31%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviewImages{
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+.Logo{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.mainNav{
+    float: right;
+    list-style: none;
+
+}
+
+.mainNav li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px 5px;
+}
+
+.mainNav li a:hover,
+.mainNav li a:visited{
+    border-bottom: 2px solid orange;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,2);
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*Buttons
+/*--------------------------------------------------------------------------------------------------*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: rgba(255, 255, 255, 0.76);
+    
+
+}
+
+.btn-ghost{
+    border: 1px solid; 
+    text-align: center;
+    position: relative;
+    
+}
+
+.btn-ghost:hover{
+    color: white;
+    background-color: #10ac84;
+    border-color: #10ac84;
+    transition: background 0.2, border 0.2, color 0.2;
+}
+
+
+/*
+Pictures
+*/
+.pictures-showcase{
+    list-style: none;
+    width: 100%;
+    
+}
+
+.pictures-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+.images{
+    width: 95%;
+    margin: 0;
+    margin-left: 2%;
+    overflow: hidden;
+    background: black;
+    margin-bottom: 100px;
+}
+
+.images img{
+    width: 100%;
+    transform: scale(1.40);
+    opacity: 0.5;
+}
+
+.images img:hover{
+    transform: scale(1.03);
+    transition: transform 1s, opacity 1s;
+    opacity: 1;
+}
