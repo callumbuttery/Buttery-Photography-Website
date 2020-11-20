@@ -70,9 +70,27 @@ section{
     background-color: #d6cfcf;
 }
 
+h2{
+    font-size: 250%;
+    width: 35%;
+    margin-left: 30%;
+    text-align: center;
+}
+
 .plan-box{
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 30%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #c6c3c3;
+}
+
+.price-plan{
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 100;
 }
